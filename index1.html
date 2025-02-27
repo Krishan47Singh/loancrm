@@ -1,0 +1,72 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <form>
+            <div class="grid md:grid-cols-2 gap-3">
+                <div class="items-baseline flex-wrap lg:flex-nowrap">
+                    <label class="form-label max-w-56 mb-1">
+                        Password <span class="text-danger">&nbsp;*</span>
+                    </label>
+                    <input class="input mb-3" id="password" type="password" placeholder="Password"
+                        pattern="[A-Za-z\d@$!%*?&]{8,}$"
+                        title="Must contain at least one number, one uppercase, one lowercase letter, and at least 8 characters"
+                        required>
+                </div>
+                <br>
+                <div class="items-baseline flex-wrap lg:flex-nowrap">
+                    <label class="form-label max-w-56 mb-1">
+                        Repeat Password <span class="text-danger">&nbsp;*</span>
+                    </label>
+                    <input class="input mb-3" id="confirmPassword" type="password" placeholder="Repeat Password"
+                        pattern="[A-Za-z\d@$!%*?&]{8,}$"
+                        title="Must contain at least one number, one uppercase, one lowercase letter, and at least 8 characters"
+                        required>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+        <script>
+            document.querySelector("form").addEventListener("submit", function (e) {
+                const password = document.getElementById("password").value;
+                const confirmPassword = document.getElementById("confirmPassword").value;
+
+                if (password !== confirmPassword) {
+                    e.preventDefault();  // Prevent form submission
+                    alert("Passwords do not match");
+                    console.log("please check password")
+                } else {
+                    e.preventDefault();
+                    alert("Passwords match! Form submitted.");
+                    console.log("form submitted");
+                }
+
+            });
+        </script>
+
+
+
+    </body>
+
+    </html>
+</body>
+
+</html> -->
+
